@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Meeting Minutes</title>
+        <link rel="icon" href="favicon.ico">
+    </head>
+    <body>
+        <header>
+            <h1>Meeting Minutes</h1>
+            <nav>
+                <ol>
+                    <li><a href="#Meeting Topic">Meeting Topic</a></li>
+                    <li><a href="#Weekly Updates">Weekly Updates</a></li>
+                    <li><a href="#Discussion Items">Discussion Items</a></li>
+                    <li><a href="#Objectives">This Week's Objectives</a></li>
+                </ol>
+            </nav>
+        </header>
+        <main>
+            <div id="Meeting Content">
+                <section id="Meeting Topic">
+                    <h2>Meeting Topic</h2>
+                    <p>This week, <b>the 3B team</b> met to figure out what's going on. Unfortunately, nobody knows <i>anything</i> about the status of the project.</p>
+                    <details>
+                        <summary>Miscellaneous Meetintg Info</summary>
+                        <p>Day: Thursday, February 29, 2030</p>
+                        <p>Attendees: Bjorn, Bobby, Ben</p>
+                    </details>
+                </section>
+                <hr>
+                <section id="Weekly Updates">
+                    <h2>Weekly Updates</h2>
+                    <h3>Bjorn</h3>
+                    <ul>
+                        <li>Read his notes last week</li>
+                        <li>Couldn't boot his laptop</li>
+                        <li>Thinks its time to get funded</li>
+                    </ul>
+                    <h3>Bobby</h3>
+                    <ul>
+                        <li>Still having trouble finding the meeting room</li>
+                        <li>Proposed sending updates via snail mail</li>
+                        <li>Agrees with bjorn about funding</li>
+                    </ul>
+                    <h3>Ben</h3>
+                    <ul>
+                        <li>Knows a guy who knows a guy who can get us funding</li>
+                        <li>Thinks company snacks should be yogurt only</li>
+                        <li>Proposed buying a company boat with funding to be</li>
+                        <p>Picture of the boat Ben wants to buy:</p>
+                        <img src="https://images.pexels.com/photos/3022415/pexels-photo-3022415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Image of boat Ben wants to buy">
+                    </ul>
+                </section>
+                <hr>
+                <section id="Discussion Items">
+                    <h2>Discussion Items</h2>
+                    <h3>Funding</h3>
+                    <ul>
+                        <li>[Ben]: We're broke.</li>
+                        <li>[Bjorn]: <strong>Agrees with Ben's point</strong> and argues its time for funing.</li>
+                        <li>[Bobby]: Empahsizes that money will let the team <em>buy cool new tech</em></li>
+                        <li>[Ben]: proposes a boat and then tables discussion for next week.</li>
+                    </ul>
+                    <br>
+                    <p><span><i>Status: </i></span>Group unanimously votes to table discussion until next week's meeting.</p>
+                </section>
+                <hr>
+                <section id="Objectives">
+                    <h2>This Week's Objectives</h2>
+                    <p>Watch this video before you start working for a laugh (people work better when they're happy):</p>
+                    <video width="320" height="240" controls>
+                        <source src="bunny.mp4" type="video/mp4">
+                    </video>
+                    <p>Listen to this voice memo from the boss</p>
+                    <audio src="do your work.m4a" controls>
+                    </audio>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <h3>Survey</h3>
+            <form>
+                <fieldset>
+                    <legend>Which employee should be fired?</legend>
+                    <input type="radio" id="Ben" name="employee">
+                    <label for="Ben">Ben</label><br>
+                    <input type="radio" id="Bjorn" name="employee">
+                    <label for="Bjorn">Bjorn</label><br>
+                    <input type="radio" id="Bobby" name="employee">
+                    <label for="Bobby">Bobby</label><br>
+                </fieldset>
+
+                <label for="favorite employee">Your favorite employee:</label><br>
+                <input type="text" id="favorite employee" name="favorite employee">
+
+                <fieldset>
+                    <legend>Check all employees which should receive a bonus.</legend>
+                    <input type="checkbox" id="Ben" name="bonus">
+                    <label for="Ben">Ben</label><br>
+                    <input type="checkbox" id="Bjorn" name="bonus">
+                    <label for="Bjorn">Bjorn</label><br>
+                    <input type="checkbox" id="Bobby" name="bonus">
+                    <label for="checkbox">Bobby</label><br>
+                    <label for="Bonus Date">When should bonuses go out?</label>
+                    <input type="date" id="Bonus Date" name="Bonus Date">
+                </fieldset>
+
+                <label for="Company Concerns">Do you have any concerns about the company's direction?</label>
+                <br>
+                <textarea id="Company Concerns" name="Company Concerns">Enter your concerns about the company and/or its employees here.</textarea><br>
+
+                <label for="spending items">What should the company spend its money on?</label>
+                <input list="spending" name="spending items" id="spending items">
+                <datalist id="spending">
+                    <option value="Small Boat">
+                    <option value="Big Boat">
+                    <option value="Better Servers">
+                    <option value="Better Employees">
+                    <option value="Saving It">
+                </datalist>
+
+                <br>
+                <label for="new-hire">Choose a new hire:</label>
+                <select name="new-hire" id="new-hire">
+                    <option value="">--Please choose an option--</option>
+                    <option value="Jared">Jared</option>
+                    <option value="Hanbit">Hanbit</option>
+                    <option value="Mark">Mark Zuckerberg</option>
+                </select>
+
+                <br>
+                <button type="button">Submit survey!</button>
+            </form>
+        </footer>
+    </body>
+</html>
