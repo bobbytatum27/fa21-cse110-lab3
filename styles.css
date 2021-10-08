@@ -31,3 +31,31 @@ html {
         background-color: rgba(255, 228, 181, 0.08);
     }
 }
+
+#survey {
+    border-color: red;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 0.1em;
+    padding: 10px 10px 10px 10px;
+    margin: auto;
+}
+
+#bonuses {
+    margin: 1cm 1cm 1cm 1cm;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#fired {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 10mm;
+    margin-bottom: 10mm;
+    margin-left: 10mm;
+    margin-right: 10mm;
+}
