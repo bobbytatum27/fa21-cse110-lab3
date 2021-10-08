@@ -8,7 +8,7 @@
 - Person C
 - Person D
 
-#### Updates
+### Updates
 ###### [Team Member 1]
 **Progress**
 - Info
@@ -23,6 +23,6 @@
 - Go
 - Here
 
-#### Discussion Items
+### Discussion Items
 ###### Discussion Topic 1
 - *Team Member Name*: Thoughts Recorded Here
