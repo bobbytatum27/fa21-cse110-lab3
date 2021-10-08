@@ -14,10 +14,12 @@
 - Info
 - Goes 
 - Here
+ 
 **Today's Plan**
 - Plan
 - Goes
 - Here
+
 **Blockers**
 - Blockers
 - Go
