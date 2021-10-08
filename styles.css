@@ -2,10 +2,11 @@
 
 .notesTitle {
     background-color: rgba(255, 165, 0, 0.2);
-    color: #F6A;
+    color: rgb(78, 76, 77);
 }
 
 .noteSection {
-    background-color: hsla(0, 0%, 0%, 0.1);
-    color: orange;
+    background-color: hsla(39, 100%, 50%, 0.2);
+    color: gray;
 }
+
