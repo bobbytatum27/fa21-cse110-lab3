@@ -5,6 +5,11 @@
         <title>Meeting Minutes</title>
         <link rel="icon" href="favicon.ico">
         <link rel="stylesheet" href="styles.css">
+        <style>
+            span {
+                display: block;
+            }
+        </style>
     </head>
     <body>
         <header>
@@ -25,8 +30,10 @@
                     <p>This week, <b>the 3B team</b> met to figure out what's going on. Unfortunately, nobody knows <i>anything</i> about the status of the project.</p>
                     <details>
                         <summary>Miscellaneous Meetintg Info</summary>
-                        <p>Day: Thursday, February 29, 2030</p>
-                        <p>Attendees: Bjorn, Bobby, Ben</p>
+                        <!-- The display stylings for p and span override their default inline/block values -->
+                        <p style="display: inline;">Day: Thursday, February 29, 2030 | </p>
+                        <p style="display: inline;">Attendees: Bjorn, Bobby, Ben</p>
+                        <span>Absences: Jared</span>
                     </details>
                 </section>
                 <hr>
