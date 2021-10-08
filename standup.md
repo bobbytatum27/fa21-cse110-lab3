@@ -1,10 +1,15 @@
 # [Team Name] Daily Standup
 ## Date: [Date]
-### Attendees: 
-### Absences: 
+#### Attendees:
+- Person A
+- Person B
 
-### Updates
-#### [Team Member 1]
+#### Absences: 
+- Person C
+- Person D
+
+#### Updates
+###### [Team Member 1]
 **Progress Updates**
 - Info
 - Goes 
@@ -18,6 +23,6 @@
 - Go
 - Here
 
-### Discussion Items
-#### Discussion Topic 1
+#### Discussion Items
+###### Discussion Topic 1
 - *Team Member Name*: Thoughts Recorded Here
