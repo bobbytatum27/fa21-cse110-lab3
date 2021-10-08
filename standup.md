@@ -10,7 +10,7 @@
 
 #### Updates
 ###### [Team Member 1]
-**Progress Updates**
+**Progress**
 - Info
 - Goes 
 - Here
