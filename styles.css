@@ -67,7 +67,7 @@ video {
 
 footer {
     position: absolute;
-    top: 1800px;
+    top: 2000px;
     left: 500px;
 }
 
@@ -93,4 +93,36 @@ button:active {
     /* bullets are reversed by using column-reverse */
     flex-direction: column-reverse;
     row-gap: 10px;
+}
+
+h2, h1 {
+    font-style: italic;
+}
+
+a[href*="#"] {
+    font-style: italic;
+}
+
+* {
+    font-weight: lighter;
+}
+
+#Weekly-Updates ol {
+    font-style: italic;
+}
+
+.discussion-notes > li {
+    color: gray;
+}
+
+legend ~ label {
+    font-style: italic;
+}
+
+#spacer + label {
+    text-decoration: underline;
+}
+
+h3.name {
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
