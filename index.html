@@ -16,7 +16,7 @@
             <h1 class="notesTitle">Meeting Minutes</h1>
             <nav>
                 <ol>
-                    <li><a href="#Meeting-Topic">Meeting Topic</a></li>
+                    <li><a href="#Meeting-Topic" isClickable>Meeting Topic</a></li>
                     <li><a href="#Weekly-Updates">Weekly Updates</a></li>
                     <li><a href="#Discussion-Items">Discussion Items</a></li>
                     <li><a href="#Objectives">This Week's Objectives</a></li>
@@ -27,13 +27,13 @@
             <div id="Meeting-Content">
                 <section id="Meeting-Topic">
                     <h2 class="noteSection">Meeting Topic</h2>
-                    <p>This week, <b>the 3B team</b> met to figure out what's going on. Unfortunately, nobody knows <i>anything</i> about the status of the project.</p>
+                    <p>This week, <b>the 3B team</b> met to figure out what's going on. Unfortunately, nobody knows <i isItalicized>anything</i> about the status of the project.</p>
                     <details>
                         <summary>Miscellaneous Meeting Info</summary>
                         <!-- The display stylings for p and span override their default inline/block values -->
                         <div class="details-section">
-                            <p style="display: inline;">Day: Thursday, February 29, 2030 | </p>
-                            <p style="display: inline;">Attendees: Bjorn, Bobby, Ben</p>
+                            <p style="display: inline;" id="date">Day: Thursday, February 29, 2030 | </p>
+                            <p style="display: inline;" id="attendees">Attendees: Bjorn, Bobby, Ben</p>
                             <span>Absences: Jared</span>
                         </div>
                     </details>
@@ -52,6 +52,13 @@
                         <li style="align-self: auto;">Still having trouble finding the meeting room</li>
                         <li>Proposed sending updates via snail mail</li>
                         <li>Agrees with bjorn about funding</li>
+                        <li>Wants to prioritize these:
+                            <ol>
+                                <li>Funding</li>
+                                <li>Development</li>
+                                <li>Personal Life</li>
+                            </ol>
+                        </li>
                     </ul>
                     <h3 class="name">Ben</h3>
                     <ul>
@@ -69,11 +76,11 @@
                 <section id="Discussion-Items">
                     <h2 class="noteSection">Discussion Items</h2>
                     <h3>Funding</h3>
-                    <ul>
-                        <li>[Ben]: We're broke.</li>
-                        <li>[Bjorn]: <strong>Agrees with Ben's point</strong> and argues its time for funing.</li>
-                        <li>[Bobby]: Empahsizes that money will let the team <em>buy cool new tech</em></li>
-                        <li>[Ben]: proposes a boat and then tables discussion for next week.</li>
+                    <ul class="discussion-notes">
+                        <li><b>[Ben]:</b> We're broke.</li>
+                        <li><b>[Bjorn]:</b><strong>Agrees with Ben's point</strong> and argues its time for funing.</li>
+                        <li><b>[Bobby]:</b> Empahsizes that money will let the team <em>buy cool new tech</em></li>
+                        <li><b>[Ben]:</b> proposes a boat and then tables discussion for next week.</li>
                     </ul>
                     <br>
                     <p><span><i>Status: </i></span>Group unanimously votes to table discussion until next week's meeting.</p>
@@ -115,6 +122,7 @@
                     <label for="Bjorn-bonus">Bjorn</label><br>
                     <input type="checkbox" id="Bobby-bonus" name="bonus">
                     <label for="Bobby-bonus">Bobby</label><br>
+                    <div id="spacer"></div>
                     <label for="Bonus-Date">When should bonuses go out?</label>
                     <input type="date" id="Bonus-Date" name="Bonus-Date">
                 </fieldset>
