@@ -70,3 +70,11 @@ footer {
     top: 1800px;
     left: 500px;
 }
+
+button:hover {
+    background-color: lightblue;
+}
+
+button:active {
+    color: white;
+}
