@@ -79,9 +79,18 @@ button:active {
     color: white;
 }
 
-ul {
+#bjorn {
     display: grid;
     justify-content: left;
     align-items: start;
     gap: 5px 5px;
+}
+
+/* one child has an align-self */
+#bobby {
+    display: flex;
+    justify-content: space-between;
+    /* bullets are reversed by using column-reverse */
+    flex-direction: column-reverse;
+    row-gap: 10px;
 }
